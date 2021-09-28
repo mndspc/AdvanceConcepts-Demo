@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AdvanceConcepts.ExtensionMethodDemo</StartupObject>
+    <StartupObject>AdvanceConcepts.AggregationDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -50,8 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionDel.cs" />
+    <Compile Include="AggregationDemo.cs" />
     <Compile Include="AnonyMethod.cs" />
     <Compile Include="AnonyType.cs" />
+    <Compile Include="AssociationDemo.cs" />
+    <Compile Include="CompositionDemo.cs" />
+    <Compile Include="CompositionDemo1.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="ExtensionMethodDemo.cs" />
     <Compile Include="FuncDel.cs" />
@@ -62,6 +66,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SerAndDeser.cs" />
     <Compile Include="SerAndDesJson.cs" />
+    <Compile Include="TaskDemo1.cs" />
+    <Compile Include="TaskDemo2.cs" />
+    <Compile Include="TaskDemo3.cs" />
+    <Compile Include="TaskDemo4.cs" />
+    <Compile Include="TaskDemo5.cs" />
+    <Compile Include="TaskDemo6.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
